@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "hourlore": {
+      "type": "http",
+      "url": "https://hourlore.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${HOURLORE_API_KEY}"
+      }
+    }
+  }
+}

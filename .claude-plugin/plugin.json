@@ -1,0 +1,27 @@
+{
+  "name": "hourlore-mcp",
+  "version": "1.0.0",
+  "description": "Generate free documentary storyboards and render 5–15 min narrated 1080p MP4 documentaries.",
+  "author": {
+    "name": "Hourlore",
+    "url": "https://hourlore.com"
+  },
+  "homepage": "https://hourlore.com/docs/mcp",
+  "repository": "https://github.com/hourlore/hourlore-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "documentary",
+    "faceless-video",
+    "video-generation",
+    "wikimedia-commons",
+    "skills",
+    "claude-code",
+    "cursor"
+  ],
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hourlore/hourlore",
+  "title": "Hourlore",
+  "description": "Generate free documentary storyboards and render 5–15 min narrated 1080p MP4 documentaries.",
+  "version": "1.0.0",
+  "websiteUrl": "https://hourlore.com/docs/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hourlore.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer API key from https://hourlore.com/account",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string",
+          "value": "Bearer {api_key}",
+          "variables": {
+            "api_key": {
+              "description": "Hourlore API key (starts with hl_)",
+              "isRequired": true,
+              "isSecret": true
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/hourlore/hourlore-mcp",
+    "source": "github"
+  }
+}
